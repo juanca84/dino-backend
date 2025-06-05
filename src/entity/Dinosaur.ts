@@ -1,8 +1,8 @@
-import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
+import { Entity, PrimaryColumn, Column } from "typeorm";
 
 @Entity()
 export class Dinosaur {
-  @PrimaryGeneratedColumn()
+  @PrimaryColumn()
   occurrence_no!: number;
 
   @Column()
